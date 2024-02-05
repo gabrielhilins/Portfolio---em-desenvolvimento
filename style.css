@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #323330;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+    padding-left: 20px;
+}
+
+.navbar a:hover {
+    color: rgba(205, 99, 21, 1);
+}
+
+#home {
+    height: 1000px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #1E1E1E;
+}
+
+.home-texto {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #CD6315;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.texto1 {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.titulo-informacoes {
+    color: #CD6315;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.link1-informacoes,
+.link2-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link1-informacoes a,
+.link2-informacoes a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.link1-informacoes a:hover,
+.link2-informacoes a:hover {
+    text-decoration: underline;
+    background-color: rgba(205, 99, 21, 1);
+    color: white;
+}
+
+.link1-informacoes img,
+.link2-informacoes img {
+    max-width: 50px;
+    margin-bottom: 5px;
+}
+
+.linkedin,
+.github,
+.curriculopt {
+    width: 100%;
+    max-width: 300px;
+    height: 76px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.portfolio-ingles {
+    width: 100%;
+    max-width: 300px;
+    height: 76px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.resume {
+    width: 100%;
+    max-width: 300px;
+    height: 76px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.emBreve-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: #1E1E1E;
+    align-items: center;
+}
+
+.titulo-emBreve {
+    color: rgba(205, 99, 21, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.emBreve-container p {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
