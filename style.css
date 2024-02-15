@@ -203,3 +203,171 @@ body {
     max-width: 600px;
     margin-bottom: 20px;
 }
+
+/* Smartphone */
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+    .navbar a {
+        padding-left: 10px;
+    }
+
+    .home-texto {
+        padding: 0 20px;
+    }
+
+    .nome {
+        font-size: 32px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .texto1 {
+        font-size: 14px;
+    }
+
+    .titulo-informacoes {
+        font-size: 24px;
+    }
+
+    .link1-informacoes a,
+    .link2-informacoes a {
+        font-size: 16px;
+    }
+
+    .linkedin,
+    .github,
+    .curriculopt,
+    .portfolio-ingles,
+    .resume {
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .emBreve-container {
+        height: auto;
+    }
+
+    .titulo-emBreve {
+        font-size: 40px;
+    }
+
+    .emBreve-container p {
+        font-size: 12px;
+        max-width: 100%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .navbar a {
+        padding-left: 20px;
+    }
+
+    .home-texto {
+        padding: 0 40px;
+    }
+
+    .nome
+
+ {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 24px;
+    }
+
+    .texto1 {
+        font-size: 16px;
+    }
+
+    .titulo-informacoes {
+        font-size: 32px;
+    }
+
+    .link1-informacoes a,
+    .link2-informacoes a {
+        font-size: 20px;
+    }
+
+    .linkedin,
+    .github,
+    .curriculopt,
+    .portfolio-ingles,
+    .resume {
+        font-size: 18px;
+        height: 70px;
+    }
+
+    .emBreve-container {
+        height: auto;
+    }
+
+    .titulo-emBreve {
+        font-size: 48px;
+    }
+
+    .emBreve-container p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 769px) {
+    .navbar a {
+        padding-left: 100px;
+    }
+
+    .home-texto {
+        padding: 0 100px;
+    }
+
+    .nome {
+        font-size: 64px;
+    }
+
+    .subtitulo {
+        font-size: 32px;
+    }
+
+    .texto1 {
+        font-size: 24px;
+    }
+
+    .titulo-informacoes {
+        font-size: 36px;
+    }
+
+    .link1-informacoes a,
+    .link2-informacoes a {
+        font-size: 24px;
+    }
+
+    .linkedin,
+    .github,
+    .curriculopt,
+    .portfolio-ingles,
+    .resume {
+        font-size: 24px;
+        height: 76px;
+    }
+
+    .emBreve-container {
+        height: 500px;
+    }
+
+    .titulo-emBreve {
+        font-size: 128px;
+    }
+
+    .emBreve-container p {
+        font-size: 14px;
+        max-width: 815px;
+    }
+}
+
